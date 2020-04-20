@@ -14,7 +14,7 @@ function sessionClear(key) {
 }
 
 // for local storage
-function localStore(key, any) {
+function localStore(key, value) {
     let strValue = JSON.stringify(value);
     localStorage.setItem(key, strValue);
 }
