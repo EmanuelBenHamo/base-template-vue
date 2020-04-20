@@ -28,7 +28,7 @@ function localClear(key) {
     localStorage.removeItem(key);
 }
 
-module.exports = {
+export default {
     sessionStore,
     sessionLoad,
     sessionClear,
